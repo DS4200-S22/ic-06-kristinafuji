@@ -11,4 +11,8 @@ Modified: 12/06/21
     // You will need to modiffy the body of this function as described in the assignment Readme
 function button1Clicked() {
     console.log("Button 1 was clicked"); 
+    let randomNumber = Math.random();
+    let buttonText = document.getElementById("random_num");
+
+    buttonText.innerHTML = randomNumber;
 }
